@@ -8,6 +8,9 @@ function App() {
     <header>
       <NavBar/>
     </header>
+    <main>
+      
+    </main>
     </>
   )
 }
