@@ -1,0 +1,60 @@
+{
+  "gymPackages": [
+    {
+      "id": 1,
+      "name": "Basic Plan",
+      "duration": "1 Month",
+      "price": 1500,
+      "currency": "BDT",
+      "image": "https://example.com/images/basic-gym.jpg",
+      "features": [
+        "Gym Access",
+        "Locker Facility",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard Plan",
+      "duration": "3 Months",
+      "price": 4000,
+      "currency": "BDT",
+      "image": "https://example.com/images/standard-gym.jpg",
+      "features": [
+        "Gym Access",
+        "Locker Facility",
+        "Free WiFi",
+        "Diet Plan"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium Plan",
+      "duration": "6 Months",
+      "price": 7500,
+      "currency": "BDT",
+      "image": "https://example.com/images/premium-gym.jpg",
+      "features": [
+        "Unlimited Gym Access",
+        "Personal Trainer",
+        "Diet Plan",
+        "Free Supplements Guide"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "VIP Plan",
+      "duration": "12 Months",
+      "price": 12000,
+      "currency": "BDT",
+      "image": "https://example.com/images/vip-gym.jpg",
+      "features": [
+        "Unlimited Gym Access",
+        "Personal Trainer",
+        "Custom Diet Plan",
+        "Sauna & Steam Bath",
+        "Free Gym T-Shirt"
+      ]
+    }
+  ]
+}
