@@ -4,7 +4,6 @@ import PricingCart from './PricingCart';
 const PricingOption = ({ pricingData }) => {
 
     const pricingMode = use(pricingData);
-    console.log(pricingMode);
 
     return (
         <div>

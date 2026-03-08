@@ -15,7 +15,8 @@ function App() {
       <NavBar/>
     </header>
     <main>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<span className="loading loading-spinner text-success items-center"></span>
+}>
            <PricingOption pricingData={pricingData}></PricingOption>
         </Suspense>
     </main>
