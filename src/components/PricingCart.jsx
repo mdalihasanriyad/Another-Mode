@@ -9,7 +9,7 @@ const PricingCart = ({ pricing }) => {
           <span className="badge badge-xs badge-warning">{duration}</span>
           <div className="flex justify-between">
             <h2 className="text-3xl font-bold">{name}</h2>
-            <span className="text-xl">{price}</span>
+            <span className="text-xl">${price}</span>
           </div>
           <ul className="mt-6 flex flex-col gap-2 text-xs">
             {
