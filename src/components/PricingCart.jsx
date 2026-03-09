@@ -1,14 +1,14 @@
 import React from "react";
 
 const PricingCart = ({ pricing }) => {
-    const { name,title, price, features } = pricing;
+    const { name, price, duration } = pricing;
   return (
     <div className="border-2 border-gray-300 rounded-lg p-4 m-4">
       <div className="card w-96 bg-base-100 shadow-sm">
         <div className="card-body">
-          <span className="badge badge-xs badge-warning">{name}</span>
+          <span className="badge badge-xs badge-warning">{duration}</span>
           <div className="flex justify-between">
-            <h2 className="text-3xl font-bold">{title}</h2>
+            <h2 className="text-3xl font-bold">{name}</h2>
             <span className="text-xl">{price}</span>
           </div>
           <ul className="mt-6 flex flex-col gap-2 text-xs">
